@@ -1,0 +1,86 @@
+.hero {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero-content button {
+  background-color: #d4af37;
+  color: black;
+  padding: 15px 40px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.proprietes {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.proprietes h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #1a1a1a;
+}
+
+.cartes-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.carte-maison {
+  width: 300px;
+  background: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.carte-maison img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.carte-maison h3 {
+  padding: 15px;
+  color: #1a1a1a;
+}
+
+.carte-maison p {
+  padding: 0 15px;
+  color: #666;
+}
+
+.carte-maison button {
+  margin: 15px;
+  padding: 10px 25px;
+  background-color: #d4af37;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}

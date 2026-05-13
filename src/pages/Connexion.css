@@ -1,0 +1,54 @@
+.connexion-container {
+  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1600');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connexion-box {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 50px 40px;
+  width: 400px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.connexion-box h1 {
+  color: #1a1a1a;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.connexion-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.connexion-box button {
+  width: 100%;
+  padding: 15px;
+  background-color: #d4af37;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.connexion-box p {
+  color: #666;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.connexion-box p:hover {
+  color: #d4af37;
+}

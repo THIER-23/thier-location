@@ -6,6 +6,8 @@ import Contact from "./pages/Contact"
 import Detail from "./pages/Detail"
 import NavBar from "./components/Navbar"
 
+
+
 function App (){
     return (
         <BrowserRouter> 

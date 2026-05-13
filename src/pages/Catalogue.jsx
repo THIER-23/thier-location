@@ -3,6 +3,7 @@ function Catalogue(){
         <div>
             <h1>Notre Catalogue</h1>
         </div>
+        
     );
     
 }

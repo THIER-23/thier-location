@@ -5,6 +5,7 @@ import Connexion from "./pages/Connexion"
 import Contact from "./pages/Contact"
 import Detail from "./pages/Detail"
 import NavBar from "./components/Navbar"
+import Footer from "./components/Footer"
 
 
 
@@ -18,10 +19,12 @@ function App (){
         <Route path="/Connexion" element={<Connexion/>} />
         <Route  path="/Contact" element={<Contact/>}/>
         <Route path="/Detail" element={<Detail/>}/>
-
+        
         </Routes>
+         <Footer/>
 
         </BrowserRouter>
+       
     );
     
 }
